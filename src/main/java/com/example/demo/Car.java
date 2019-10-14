@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 public class Car {
     @NotNull
-    @Min(3)
+    @Size(min=3)
     private String name;
 
     @NotNull
